@@ -4,3 +4,34 @@
   padding: 2rem;
   text-align: center;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  background-color: aliceblue;
+  color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  font-size: large;
+}
+
+input{
+  border-width: 0;
+  padding: .5em;
+  border-radius: 4px;
+}
+
+button{
+  height: 50px;
+  width: 50%;
+  margin: 1em;
+  background-color: coral;
+  border-width: 0;
+  border-radius: 4px;
+}
